@@ -1,0 +1,19 @@
+{
+  "name": "larpug",
+  "description": "bringing pug to laravel",
+  "main": "index.php",
+  "dependencies": {
+    "pug": "^2.0.0-beta3",
+    "stylus": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/acidjazz/larpug.git"
+  },
+  "author": "Kevin Olson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acidjazz/larpug/issues"
+  },
+  "homepage": "https://github.com/acidjazz/larpug"
+}
