@@ -23,10 +23,13 @@ class Pug implements EngineInterface  {
 
   public function compile($path, $data) {
 
-    $result = Node::post('pug', 'http://localhost:4242/', ['file' => $path], $data);
+    $data['pretty'] = true;
+    $data['self'] = true;
+
+    $result = Node::post('pug', 'http://localhost:4242/',['file' => $path], $data);
 
     if ($result['status'] == 500) {
-      trigger_error('Compilation Error: '.$result['data']);
+      trigger_error('Pug Error: '.$result['data']);
       return false;
 
     }
