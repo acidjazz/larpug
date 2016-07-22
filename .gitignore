@@ -1,0 +1,16 @@
+## MAC OS
+.DS_Store
+
+## VIM
+*.swp
+
+## Composer
+composer.lock
+vendor
+
+## Build
+build/
+
+# node/bower
+node_modules
+bower_components
