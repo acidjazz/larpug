@@ -30,4 +30,8 @@ class ServiceProvider extends ViewServiceProvider
     );
   }
 
+  public function test() {
+    echo "this is a test";
+  }
+
 }
