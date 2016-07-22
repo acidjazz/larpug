@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "larpug\\": "src"
+      "larpug\\": "src/"
     }
   }
 }
