@@ -16,8 +16,6 @@ Allows you to use [Pug](/pugjs/pug) seamlessly in [Laravel 5](http://laravel.com
 
 # Requirements
 
-[![Join the chat at https://gitter.im/acidjazz/larpug](https://badges.gitter.im/acidjazz/larpug.svg)](https://gitter.im/acidjazz/larpug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 * [NodeJS v6.x](https://nodejs.org/en/)
 * [npm v3.x](https://www.npmjs.com/)
 
