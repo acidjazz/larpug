@@ -1,7 +1,7 @@
 
-![](media/pug.png)
+![](media/pug128.png)
 ![](media/plus128.png)
-![](media/laravel.png)
+![](media/laravel128.png)
 
 Allows you to use [Pug](/pugjs/pug) seemlessly in [Laravel 5](http://laravel.com).
 
