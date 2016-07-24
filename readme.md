@@ -1,6 +1,8 @@
 [![](media/pug128.png)](/pugjs/pug)
-![](media/plus128.png)
+![](media/and128.png)
 [![](media/laravel128.png)](/http://laravel.com)
+![](media/plus128.png)
+[![](media/lumen128.png)](/http://lumen.laravel.com)
 
 Allows you to use [Pug](/pugjs/pug) seemlessly in [Laravel 5](http://laravel.com).
 
@@ -25,3 +27,8 @@ Require this package with Composer
 composer require acidjazz/larpug
 ```
 
+Install the needed node modules to run pug
+```bash
+cd vendor/acidjazz/larpug/node
+npm install
+```

@@ -43,7 +43,6 @@ class Node  {
   }
 
   public static function startProcess() {
-    echo 'node '.__DIR__.'/../node/larpug.js > /dev/null 2>&1 &';
     exec('node '.__DIR__.'/../node/larpug.js > /dev/null 2>&1 &', $output, $return);
     sleep(1);
   }

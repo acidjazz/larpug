@@ -13,8 +13,6 @@ class Pug implements EngineInterface  {
 
   public function get($path, array $data=[]) {
 
-    \Debugbar::info($data);
-
     $result = $this->compile($path, $data);
 
     return $result['data'];
