@@ -1,6 +1,6 @@
 [![](media/pug128.png)](/pugjs/pug)
 ![](media/plus128.png)
-![](media/laravel128.png)
+[![](media/laravel128.png)](/http://laravel.com)
 
 Allows you to use [Pug](/pugjs/pug) seemlessly in [Laravel 5](http://laravel.com).
 
@@ -10,3 +10,18 @@ Allows you to use [Pug](/pugjs/pug) seemlessly in [Laravel 5](http://laravel.com
 [![License](https://poser.pugx.org/acidjazz/larpug/license)](https://packagist.org/packages/acidjazz/larpug)
 
 > *Note*: currenty in early development
+
+# Requirements
+
+* [NodeJS v6.x](https://nodejs.org/en/)
+* [npm v3.x](https://www.npmjs.com/)
+
+
+# Installation
+
+Require this package with Composer
+
+```bash
+composer require acidjazz/larpug
+```
+
