@@ -3,9 +3,8 @@
 namespace larpug;
 
 use Illuminate\View\ViewServiceProvider;
-use InvalidArgumentException;
 
-class ServiceProvider extends ViewServiceProvider
+class LarpugServiceProvider extends ViewServiceProvider
 {
 
 
