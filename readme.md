@@ -4,7 +4,7 @@
 ![](media/plus128.png)
 [![](media/lumen128.png)](/http://lumen.laravel.com)
 
-Allows you to use [Pug](/pugjs/pug) seamlessly in [Laravel 5](http://laravel.com) and [Lumen](http://lumen.laravel.com)
+Allows you to use native [Pug](/pugjs/pug) seamlessly in [Laravel 5](http://laravel.com) and [Lumen](http://lumen.laravel.com)
 
 [![Total Downloads](https://poser.pugx.org/acidjazz/larpug/downloads)](https://packagist.org/packages/acidjazz/larpug)
 [![Latest Stable Version](https://poser.pugx.org/acidjazz/larpug/v/stable)](https://packagist.org/packages/acidjazz/larpug)
@@ -30,6 +30,5 @@ composer require acidjazz/larpug
 
 Install the needed node modules to run pug
 ```bash
-cd vendor/acidjazz/larpug/node
-npm install
+npm i --prefix vendor/acidjazz/larpug/node/
 ```
