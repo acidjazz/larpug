@@ -32,3 +32,14 @@ Install the needed node modules to run pug
 ```bash
 npm i --prefix vendor/acidjazz/larpug/node/
 ```
+
+## Laravel
+
+Once Composer has installed or updated your packages you need to register larpug with Laravel itself. Open up config/app.php and find the providers key, towards the end of the file, and add 'larpug\LarpugServiceProvider', to the end:
+
+```php
+'providers' => [
+  ...
+    larpug\LarpugServiceProvider::class,
+],
+```
