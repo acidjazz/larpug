@@ -43,3 +43,10 @@ Once Composer has installed or updated your packages you need to register larpug
     larpug\LarpugServiceProvider::class,
 ],
 ```
+## Lumen
+
+For usage with [Lumen](http://lumen.laravel.com), add the service provider in `bootstrap/app.php`. 
+
+```php
+$app->register(larpug\LarpugServiceProvider::class);
+```
