@@ -31,8 +31,6 @@ class TestPackage extends \Orchestra\Testbench\TestCase {
     $test = new TestApp();
     $app = $test->createApplication();
 
-
-    echo __DIR__ . './resources/views';
     view()->addLocation(__DIR__ . '/resources/views');
     $view = view('pages.test1')->render();
     $this->assertEquals($view, $result);
