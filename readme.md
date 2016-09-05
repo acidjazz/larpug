@@ -52,3 +52,30 @@ For usage with [Lumen](http://lumen.laravel.com), add the service provider in `b
 ```php
 $app->register(larpug\LarpugServiceProvider::class);
 ```
+
+# Usage
+
+Using this is exactly the same way as using Blade templates, place your pug files in your `views` folder (usually in `resources/views`) and render them using `view()`
+
+```php
+namespace App\Controllers;
+
+class Pages extends Controller
+{
+  public function index()
+  {
+    return view('pages.index', ['name' => 'kevin']);
+  }
+
+}
+```
+
+This will look for `resources/views/pages/index.pug` 
+
+```pug
+extends ../extends/layout
+
+block content
+  .page.index 
+    .name=self.name
+```
