@@ -7,12 +7,15 @@ class TestPackage extends PHPUnit_Framework_TestCase
     $test = new TestApp();
     $app = $test->createApplication();
     $this->assertEquals(config('app.env'), 'testing');
+    $this->assertEquals('testing', $app['env']);
+    $this->assertTrue($app->isBooted(), true);
   }
 
   public function testServiceProvider() {
     $test = new TestApp();
     $app = $test->createApplication();
     $this->assertContains('Larpug\ServiceProvider',config('app.providers'));
+    $this->assertArrayhasKey('Larpug\ServiceProvider', $app->getLoadedProviders());
   }
 
   public function testView() {
@@ -28,7 +31,7 @@ class TestPackage extends PHPUnit_Framework_TestCase
 </html>';
 
     $test = new TestApp();
-    $app = $test->createApplication();
+    $test->createApplication();
 
     view()->addLocation(__DIR__ . '/resources/views');
     $view = view('pages.test1')->render();
@@ -39,7 +42,7 @@ class TestPackage extends PHPUnit_Framework_TestCase
   public function testError() {
 
     $test = new TestApp();
-    $app = $test->createApplication();
+    $test->createApplication();
 
     view()->addLocation(__DIR__ . '/resources/views');
     $this->expectException(ErrorException::class);

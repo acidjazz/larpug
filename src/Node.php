@@ -35,7 +35,7 @@ class Node  {
   }
 
   public static function checkProcess() {
-    exec('pgrep -lf "larpug.js" | grep -v pgrep', $output, $return);
+    exec('pgrep -lf "larpug.js" | grep -v pgrep', $output);
     if (count($output) < 1) {
       return false;
     }
@@ -43,7 +43,7 @@ class Node  {
   }
 
   public static function startProcess() {
-    exec('node '.__DIR__.'/../node/larpug.js > /dev/null 2>&1 &', $output, $return);
+    exec('node '.__DIR__.'/../node/larpug.js > /dev/null 2>&1 &');
     sleep(1);
   }
 
