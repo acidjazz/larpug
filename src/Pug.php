@@ -29,8 +29,6 @@ class Pug extends Factory implements EngineInterface {
 
     if ($result['status'] == 500) {
       trigger_error('Pug Error: '.$result['data']);
-      return false;
-
     }
 
     return $result;
