@@ -64,7 +64,7 @@ class Pages extends Controller
 {
   public function index()
   {
-    return view('pages.index', ['name' => 'kevin']);
+    return view('pages.index', ['name' => 'kevin', 'title' => 'test title']);
   }
 
 }
@@ -73,9 +73,29 @@ class Pages extends Controller
 This will look for `resources/views/pages/index.pug` 
 
 ```pug
-extends ../extends/layout
-
-block content
-  .page.index 
-    .name=self.name
+doctype
+html(lang='en')
+  head
+    title Title: #{self.title}
+  body
+    .page.index 
+      .name=self.name
 ```
+
+Which will render something like
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title: test title </title>
+  </head>
+  <body>
+    <div class="page index">
+      <div class="name">Kevin</div>
+    </div>
+  </body>
+</html>';
+```
+
+
