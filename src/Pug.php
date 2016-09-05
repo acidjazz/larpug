@@ -1,6 +1,6 @@
 <?php
 
-namespace larpug;
+namespace Larpug;
 use Illuminate\View\Engines\EngineInterface;
 use Illuminate\View\Factory;
 use Illuminate\Contracts\Container\Container; 

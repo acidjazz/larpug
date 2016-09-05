@@ -8,7 +8,7 @@ class ServiceProvider extends ViewServiceProvider
 {
   public function boot() {
     $this->app['view']->addExtension('pug', 'pug', function() {
-      return $this->app['larpug\Pug'];
+      return $this->app['Larpug\Pug'];
     });
   }
 }
