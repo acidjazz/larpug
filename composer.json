@@ -1,7 +1,7 @@
 {
   "name": "acidjazz/larpug",
   "description": "Adds the power of Pug to Laravel",
-  "keywords": ["laravel", "pug", "jade"],
+  "keywords": ["laravel", "lumen", "pug", "jade"],
   "license": "MIT",
   "authors": [
     {
@@ -10,13 +10,15 @@
     }
   ],
   "require": {
-    "php": ">=5.5.0",
-    "illuminate/support": "5.1.*|5.2.*|5.3.*",
-    "illuminate/view": "5.1.*|5.2.*|5.3.*"
+    "php": ">=5.6.25"
+  },
+  "require-dev": {
+    "satooshi/php-coveralls": "^1.0",
+    "orchestra/testbench": "^3.3"
   },
   "autoload": {
     "psr-4": {
-      "larpug\\": "src/"
+      "Larpug\\": "src/"
     }
   }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace larpug\Facade;
+namespace Larpug\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

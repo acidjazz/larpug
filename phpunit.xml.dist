@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true">
+
+    <testsuites>
+        <testsuite name="Larpug Tests Suite">
+          <directory suffix=".php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="APP_ENV" value="testing"/>
+    </php>
+
+  <filter>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+      <directory suffix=".php">./src</directory>
+    </whitelist>
+  </filter>
+
+    <logging>
+      <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
+
+</phpunit>
+
