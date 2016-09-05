@@ -1,8 +1,7 @@
 <?php 
 
-namespace Orchestra\Testbench\TestCase;
-
-class TestPackage extends \Orchestra\Testbench\TestCase {
+class TestPackage extends PHPUnit_Framework_TestCase
+{
 
   public function testConfig() {
     $test = new TestApp();
@@ -35,13 +34,23 @@ class TestPackage extends \Orchestra\Testbench\TestCase {
     $view = view('pages.test1')->render();
     $this->assertEquals($view, $result);
 
+  }
+
+public function testError() {
+
+    $test = new TestApp();
+    $app = $test->createApplication();
+
+    view()->addLocation(__DIR__ . '/resources/views');
+    $this->expectException(ErrorException::class);
+    $view = view('pages.error')->render();
 
   }
 
 }
 
 
-class TestApp extends \Orchestra\Testbench\TestCase
+class TestApp extends Orchestra\Testbench\TestCase
 {
   protected function getPackageProviders($app)
   {
