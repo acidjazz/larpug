@@ -4,7 +4,7 @@
 ![](media/plus128.png)
 [![](media/lumen128.png)](/http://lumen.laravel.com)
 
-Allows you to use native [Pug](/pugjs/pug) (formerly [Jade](https://github.com/scrooloose/syntastic/pull/1704)) seamlessly in [Laravel 5](http://laravel.com) and [Lumen](http://lumen.laravel.com)
+Allows you to use native [Pug](https://pugjs.org/) (formerly [Jade](https://github.com/scrooloose/syntastic/pull/1704)) seamlessly in [Laravel 5](http://laravel.com) and [Lumen](http://lumen.laravel.com)
 
 [![Total Downloads](https://poser.pugx.org/acidjazz/larpug/downloads)](https://packagist.org/packages/acidjazz/larpug)
 [![Latest Stable Version](https://poser.pugx.org/acidjazz/larpug/v/stable)](https://packagist.org/packages/acidjazz/larpug)
