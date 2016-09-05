@@ -8,8 +8,12 @@ Allows you to use native [Pug](/pugjs/pug) (formerly [Jade](https://github.com/s
 
 [![Total Downloads](https://poser.pugx.org/acidjazz/larpug/downloads)](https://packagist.org/packages/acidjazz/larpug)
 [![Latest Stable Version](https://poser.pugx.org/acidjazz/larpug/v/stable)](https://packagist.org/packages/acidjazz/larpug)
-[![Latest Unstable Version](https://poser.pugx.org/acidjazz/larpug/v/unstable)](https://packagist.org/packages/acidjazz/larpug)
 [![License](https://poser.pugx.org/acidjazz/larpug/license)](https://packagist.org/packages/acidjazz/larpug)
+[![Build Status](https://travis-ci.org/acidjazz/larpug.svg?branch=master)](https://travis-ci.org/acidjazz/larpug)
+[![Dependency Status](https://www.gemnasium.com/badges/github.com/acidjazz/larpug.svg)](https://www.gemnasium.com/github.com/acidjazz/larpug)
+[![Coverage Status](https://coveralls.io/repos/github/acidjazz/larpug/badge.svg?branch=master)](https://coveralls.io/github/acidjazz/larpug?branch=master)
+[![codecov](https://codecov.io/gh/acidjazz/larpug/branch/master/graph/badge.svg)](https://codecov.io/gh/acidjazz/larpug)
+
 [![Join the chat at https://gitter.im/acidjazz/larpug](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/acidjazz/larpug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > *Note*: currenty in early development
