@@ -26,7 +26,7 @@ http.createServer(function(req, res) {
 
     var post = JSON.parse(body);
 
-    if (post.module == "pug") {
+    if (post.module === "pug") {
 
       pug.renderFile(post.options.file, post.data, function(error, output) {
         if (error) {

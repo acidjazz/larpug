@@ -46,7 +46,7 @@ class TestPackage extends PHPUnit_Framework_TestCase
 
     view()->addLocation(__DIR__ . '/resources/views');
     $this->expectException(ErrorException::class);
-    $view = view('pages.error')->render();
+    view('pages.error')->render();
 
   }
 
@@ -60,7 +60,7 @@ class TestPackage extends PHPUnit_Framework_TestCase
 <li>5</li>';
 
     $test = new TestApp();
-    $app = $test->createApplication();
+    $test->createApplication();
 
     view()->addLocation(__DIR__ . '/resources/views');
     $view = view('pages.vars', ['array' => [1,2,3,4,5]])->render();
