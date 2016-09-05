@@ -15,8 +15,6 @@ Allows you to use native [Pug](/pugjs/pug) (formerly [Jade](https://github.com/s
 
 [![Join the chat at https://gitter.im/acidjazz/larpug](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/acidjazz/larpug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-> *Note*: currenty in early development
-
 # Requirements
 
 * [NodeJS v6.x](https://nodejs.org/en/)
