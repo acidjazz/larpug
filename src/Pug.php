@@ -25,8 +25,6 @@ class Pug extends Factory implements EngineInterface {
     $data['pretty'] = true;
     $data['self'] = true;
 
-    $data = $this->mergeObjectus($data);
-
     $result = Node::post('pug', 'http://localhost:4242/',['file' => $path], $data);
 
     if ($result['status'] == 500) {
@@ -37,15 +35,6 @@ class Pug extends Factory implements EngineInterface {
 
     return $result;
 
-  }
-
-  public function mergeObjectus($data) {
-
-    if (class_exists('\larjectus\Objectus')) {
-      $data['config'] = \larjectus\Objectus::get($this->app->basePath() . '/config/');
-    }
-
-    return $data;
   }
 
 }

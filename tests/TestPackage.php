@@ -36,7 +36,7 @@ class TestPackage extends PHPUnit_Framework_TestCase
 
   }
 
-public function testError() {
+  public function testError() {
 
     $test = new TestApp();
     $app = $test->createApplication();
@@ -46,6 +46,26 @@ public function testError() {
     $view = view('pages.error')->render();
 
   }
+
+  public function testVars() {
+
+    $result = '
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>';
+
+    $test = new TestApp();
+    $app = $test->createApplication();
+
+    view()->addLocation(__DIR__ . '/resources/views');
+    $view = view('pages.vars', ['array' => [1,2,3,4,5]])->render();
+    $this->assertEquals($view, $result);
+
+  }
+
+
 
 }
 
