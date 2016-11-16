@@ -35,8 +35,8 @@ class Node  {
   }
 
   public static function checkProcess() {
-    exec('pgrep -lf "larpug.js" | grep -v pgrep', $output);
-    if (count($output) < 1) {
+    exec('pgrep -lf "larpug.js"', $output);
+    if (count($output) < 2) {
       return false;
     }
     return true;
