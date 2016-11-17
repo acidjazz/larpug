@@ -12,7 +12,6 @@ Allows you to use native [Pug](https://pugjs.org/) (formerly [Jade](https://gith
 [![Build Status](https://travis-ci.org/acidjazz/larpug.svg?branch=master)](https://travis-ci.org/acidjazz/larpug)
 [![Dependency Status](https://www.gemnasium.com/badges/github.com/acidjazz/larpug.svg)](https://www.gemnasium.com/github.com/acidjazz/larpug)
 [![codecov](https://codecov.io/gh/acidjazz/larpug/branch/master/graph/badge.svg)](https://codecov.io/gh/acidjazz/larpug)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/26ae27120d1a4f248740b590a299f68e)](https://www.codacy.com/app/acidjazz/larpug?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=acidjazz/larpug&amp;utm_campaign=Badge_Grade)
 
 [![Join the chat at https://gitter.im/acidjazz/larpug](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/acidjazz/larpug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
