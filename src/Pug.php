@@ -17,6 +17,9 @@ class Pug extends Factory implements EngineInterface {
 
   public function get($path, array $data=[]) {
     $result = $this->compile($path, $data);
+    if ($result['data'] === false) {
+      return 'Pug Compilation Erorr: '.json_encode($result);
+    }
     return $result['data'];
   }
 
