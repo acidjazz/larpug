@@ -1,8 +1,8 @@
-[![](media/pug128.png)](/pugjs/pug)
+[![](media/pug128.png)](https://github.com/pugjs/pug)
 ![](media/and128.png)
-[![](media/laravel128.png)](/http://laravel.com)
+[![](media/laravel128.png)](https://laravel.com)
 ![](media/plus128.png)
-[![](media/lumen128.png)](/http://lumen.laravel.com)
+[![](media/lumen128.png)](https://lumen.laravel.com)
 
 Allows you to use native [Pug](https://pugjs.org/) (formerly [Jade](https://github.com/scrooloose/syntastic/pull/1704)) seamlessly in [Laravel 5](http://laravel.com) and [Lumen](http://lumen.laravel.com)
 
